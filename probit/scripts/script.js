@@ -1,6 +1,6 @@
 function scroll(section) {
-
-    var offset = -120; //Offset of 20px
+    var offset = 0; //Offset of 20px
+    $("#navbar").slideUp(300);
     $('html, body').animate({
         scrollTop: $(section).offset().top + offset
     }, 1500);
