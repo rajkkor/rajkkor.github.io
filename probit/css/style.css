@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@media only screen and (max-width: 764px) {
+    .emp img {
+        display: none;
+    }
+
+    #intro {
+        height: auto;
+    }
+
+    #navbar li {
+        float: none;
+    }
+
+    #navbar li a {
+        display: list-item;
+    }
+
+    #navbar ul {
+        width: 100px;
+    }
+
+    #intro p, h1, h2, h3, h4, h5, h6 {
+
+    }
+
+    #footer {
+        padding-left: 40px;
+
+    }
+}
+
+html {
+    font-family: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: 0.5s;
+}
+
+::selection {
+    background-color: #000e16;
+    color: #00e185;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    transition-duration: 1s;
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.parallax div {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--------------------------------------------------*/
+/*Top Navigation Bar with buttons*/
+/*--------------------------------------------------*/
+#navbar {
+    z-index: 1000;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    position: fixed;
+    box-shadow: 5px 0px 2px black;
+    border-bottom: 2px solid #20edaf;
+}
+
+#navbar ul {
+    overflow: hidden;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: inherit;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#navbar li p {
+    display: block;
+    color: inherit;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #ebebeb;
+    color: #00572f;
+}
+
+.active {
+    background-color: #20edaf;
+    color: #0f0f0f;
+}
+
+/*--------------------------------------------------*/
+/*Top Section with cool image
+/*--------------------------------------------------*/
+
+#intro {
+    background-image: url("../media/cubic2.jpg");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    color: #ffffff;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #20edaf;
+}
+
+#intro-content {
+    padding: 50px 50px 50px 20px;
+    background-color: rgba(0, 0, 0, 0.51);
+    width: 100%;
+    height: 100%;
+}
+
+#intro p, h1, h2, h3, h4, h5, h6 {
+    padding: 0px 0px 0px 70px;
+}
+
+#intro p {
+    font-size: 17px;
+}
+
+#intro hr {
+    border-bottom: 1px solid rgba(31, 31, 31, 0.100);
+}
+
+#offer {
+}
+
+#offer ul {
+    list-style-type: none;
+}
+
+#offer ul li p {
+    margin-left: 40px;
+}
+
+#offer hr {
+    border-bottom: 1px solid rgba(31, 31, 31, 0.100);
+}
+
+/*--------------------------------------------------*/
+/*Our services section
+/*--------------------------------------------------*/
+
+#services {
+    background-color: #f0f0f0;
+    border-bottom: 5px solid #20edaf;
+}
+
+#services h3, h2, p {
+
+}
+
+#services hr {
+    border-bottom: 1px solid #bebebe;
+}
+
+#services ul {
+    list-style-type: none;
+}
+
+#services ul li p {
+    margin-left: 40px;
+}
+
+/*--------------------------------------------------*/
+/*Practices
+/*--------------------------------------------------*/
+#practices {
+    border-bottom: 5px solid #20edaf;
+    text-align: center;
+}
+
+#practices h3 {
+    width: 100%;
+    font-size: 21px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#practices h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/*--------------------------------------------------*/
+/*About Us
+/*--------------------------------------------------*/
+#about {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#about .row p, h5, h1, h4 {
+    width: 100%;
+}
+
+#about hr {
+    border-bottom: 1px solid #bebebe;
+}
+
+#about p, h5 {
+    text-align: left;
+    padding: 0px 0px 0px 40px;
+}
+
+.emp {
+    background-color: #ffffff;
+    padding: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 3px solid #20edaf;
+    width: 80%;
+    margin: 5% 10%;
+    float: left;
+    display: inline;
+    text-align: left;
+}
+
+.emp .name {
+    font-size: 20px;
+    width: 100%;
+}
+
+.emp p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.emp img {
+    width: 100%;
+    height: auto;
+    border: 2px solid rgba(10, 32, 20, 0.51);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #7d7d7d;
+}
+
+/*--------------------------------------------------*/
+/*Footer section
+/*--------------------------------------------------*/
+
+#footer {
+    border-top: 3px solid #00e185;
+    height: auto;
+    background-color: #212121;
+    color: #8f8f8f;
+}
+
+#footer h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer hr {
+    border-bottom: 1px solid #8f8f8f;
+}
