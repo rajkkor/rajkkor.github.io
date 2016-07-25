@@ -98,9 +98,12 @@ a:visited {
     width: 100%;
     background-color: #ffffff;
     color: #1f1f1f;
-    position: fixed;
-    box-shadow: 5px 0px 2px black;
+
     border-bottom: 2px solid #20edaf;
+}
+
+.navbar-fixed{
+    position:fixed;
 }
 
 #navbar ul {
@@ -113,11 +116,11 @@ a:visited {
     background-color: inherit;
 }
 
-#navbar li {
+.nav-box {
     float: left;
 }
 
-#navbar li a {
+.nav-box{
     display: block;
     color: inherit;
     text-align: center;
@@ -128,14 +131,6 @@ a:visited {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-}
-
-#navbar li p {
-    display: block;
-    color: inherit;
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
 }
 
 #navbar li a:hover {
