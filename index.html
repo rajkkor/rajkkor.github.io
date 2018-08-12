@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voxel Blocks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/main.css" />
+</head>
+
+<body>
+    <div id="imageShowCase">
+        <div id="imageShowCaseDescription">
+            <p id="desc">
+                <span id="desc-big">description</span>
+                <div id="desc-small">?</div>
+            </p>
+            <p class="description">
+                a brief description. Super Racers is a mega experience for all youngsters every age.
+            </p>
+        </div>
+        <div id="imageShowCaseTopSection">
+            <h1>
+                Title for Image
+            </h1>
+
+            <img src="images/delete.svg" id="exit" />
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="/images/SuperRacers.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="/images/SuperRacers.jpg" alt="Chicago">
+                </div>
+                <div class="item">
+                    <img src="/images/SuperRacers.jpg" alt="New York">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span style="opacity:0.7;" class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span style="opacity:0.7;" class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+
+    <div id="small-menu-thing">
+        <ul>
+            <li>
+                <a toScroll="rowForImage" href="#">Home </a>
+            </li>
+            <li>
+                <a toScroll="PortfolioSection" href="#">Portfolio</a>
+            </li>
+            <li>
+                <a toScroll="mainContent" href="#">About us</a>
+            </li>
+            <li>
+                <a toScroll="contactSection" href="#">Contact us</a>
+            </li>
+        </ul>
+        <h1 class="title"></h1>
+    </div>
+    <div class="bar-container">
+        <a toScroll="rowForImage" href="#" class="big-menu-thing">Home </a>
+        <a toScroll="PortfolioSection" href="#" class="big-menu-thing">Portfolio</a>
+        <a toScroll="mainContent" href="#" class="big-menu-thing">About Us</a>
+        <a toScroll="contactSection" href="#" class="big-menu-thing">Contact</a>
+
+        <a href="#" id="menu-small">
+            <div class="menu-row"></div>
+            <div class="menu-row"></div>
+            <div class="menu-row"></div>
+        </a>
+    </div>
+    <div id="bar-container-braker"></div>
+    <div id="rowForImage">
+        <img src="/images/SteampunkCastle.jpg" alt="front-cover" align="middle" />
+        <h1 id="HelloText">
+        We are VoxelBlocks!
+        </h1>
+        <div id="shadeToWhite"></div>
+    </div>
+    <div class="container-fluid" id="main-content">
+        <div class="row" id="mainContent">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="title">
+                    Who we are
+                </h1>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <br>
+                <br>
+                <br>
+                <br>
+                <p id="about">
+                    Hello! We are Vincent Grenfeldt (Rajkkor) and Karl Pedersen (The_Blahblahblah), two professional game designers and content
+                    creators from Scandinavia.
+                    <br> We have long had a passion to create the best gaming experiences in Minecraft, our extensive experience
+                    over 14 years combined enables us to plan, build execute resulting in designs to replicate the same impression
+                    from our childhood we first had when we started playing the
+                    <span class="highlight">fun games</span> we all enjoy.
+                    <br> We currently work and publish with Blockception on the Minecraft Marketplace.
+                    <br>
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        
+        <div class="row" id="PortfolioSection">
+
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2 class="title">Showcase</h2>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row" id="PortfolioSection">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <br>
+                <br>
+                <br>
+                <div id="imageSection">
+
+                    <div class="imgContainer bigContainer">
+                        <a href="./project/Racers">
+                            <div class="imgOverlay">
+                                <h2>Super Racers! </h2>
+
+                                <img src="images/market_partner.png" width="50px" height="auto" />
+                            </div>
+                            <img src="/images/SuperRacers.jpg" alt="SuperRacers">
+                        </a>
+                    </div>
+                    <div class="imgContainer bigContainer">
+                        <a href="./project/Steampunk">
+                            <div class="imgOverlay">
+                                <h2>Steampunk Castle</h2>
+
+                                <img src="images/market_partner.png" width="50px" height="auto" />
+                            </div>
+                            <img src="/images/SteampunkCastle.jpg" alt="Steampunk Castle">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="Ratoyo">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Ratoyo's Moving Toystore</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/vRctK9U.jpg" alt="Ratoyo">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="SpaceStation">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>K2 Space Station</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/Vgkrc2V.jpg" alt="Space Spawn">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="Tropical">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Tropical Castle</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/AM3S9Fn.jpg" alt="Tropical Castle">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="TitanOfAsgard">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Titans of Asgard</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/ApRWKQv.jpg" alt="Spawn">
+                        </a>
+                    </div>
+
+
+                    <div class="imgContainer" keyNr="GothenCrow">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Gothencrow</h2>
+                            </div>
+                            <img data-src="images/gothencrow.jpeg" alt="Gothencrow">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="Exploration">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Exploration One</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/DlJPUh2.jpg" alt="Exploration One">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="TomorrowLand">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>TomorrowLand with BlockworksMC Ltd</h2>
+                            </div>
+                            <img src="images/Tomorrowland.jpg" alt="TomorrowLand">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="SkyHaven">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Sky Haven</h2>
+                            </div>
+                            <img src="images/SkyHaven.jpg" alt="SkyHaven">
+                        </a>
+                    </div>
+
+                    <div class="imgContainer" keyNr="CelestialStarDestroyer">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>The Celestial Star Destroyer</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/2AybQVV.jpg" alt="The Celestial Star Destroyer">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="Treant">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Treant</h2>
+                            </div>
+                            <img data-src="/images/bob2.jpg" alt="bob">
+                        </a>
+                    </div>
+                    <div class="imgContainer" keyNr="Scrambles">
+                        <a href="#">
+                            <div class="imgOverlay">
+                                <h2>Scrambled Projects</h2>
+                            </div>
+                            <img data-src="https://i.imgur.com/T8beIAS.jpg" alt="Scrambled Projects">
+                        </a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2 class="title">Our Workflow</h2>
+
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <br>
+                <br>
+                <br>
+                <div id="skillset">
+
+                    <br>
+                    <br>
+                    <div class="section">
+                        <h2>Building & Construction</h2>
+                        <img src="https://i.imgur.com/XegTwsI.jpg" width="540" height="auto" class="skillsetIMG" />
+                    </div>
+                    <div class="section">
+                        <p>
+                            We have a drive for exploration, and it's our philosophy when designing our maps, never letting the player feel any boredom.
+                            <br>We make sure that their time spent in our games is of great quality.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="section">
+                        <h1>Modelling</h1>
+                        <a href="/project/Racers">
+                            <img src="images/racerGif.gif" class="skillsetIMG" />
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="section">
+                        <p>
+                            Standing out is an important expect of every game. we make sure to not only give the players a unique experience in the enviornment,
+                            <br>but also in their way of interacting with it with custom models and textures to bring life to
+                            our maps.
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="section">
+                        <h1>Development & Scripting</h1>
+                        <img src="images/cogwheel.svg" id="cog-dev" alt="roadmap" width="150px" height="150px">
+                    </div>
+                    <br>
+                    <div class="section">
+                        <p>
+                            Interacting with the game is very important, We therefore make sure to enhance the experience from static looks to dynamic
+                            experience with custom behaviour to give the players a toolbox to experiment and explore new
+                            ways to play.
+                        </p>
+                    </div>
+                    <div class="section">
+                        <h1>And we make sure to keep you updated on the progress!</h1>
+                        <h3 style="color:rgb(120,120,120 );">
+                        Working with roadmaps to plan and execute.</h3>
+                        <p>
+                            And Deliver consistent quality. and we make sure to push the boundries of what can be fun in Minecraft.
+                            Have a look at Patch Note worthy <a href="/project/Racers">Super Racers!</a>
+                        </p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="row inverted" id="contactSection">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <br class="breakupBlock"></br>
+                <h1 class="title">
+                    Want to work with us?
+                </h1>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row inverted" style="height:100%">
+            <div class="col-md-3 col-sm-2"></div>
+            <div class="col-md-6 col-sm-8">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="title">
+                    For Museums and Business
+                </h1>
+                <form method="post" action="/mail" class="contact-form" id="">
+                    <div class="contact-group">
+                        <label for="firstName">Name *</label>
+                    </div>
+                    <div class="contact-group">
+                        <input type="text" id="firstName_input" name="firstName" required placeholder="Name" />
+                        <input type="text" name="lastName" placeholder="Last Name" />
+
+                    </div>
+                    <div class="contact-group">
+                        <label for="email">Email Address * </label>
+                    </div>
+                    <div class="contact-group">
+                        <input name="email" id="email_input" type="email" required placeholder="email address" />
+                    </div>
+                    <div class="contact-group">
+                        <label for="subject">Subject *</label>
+                    </div>
+                    <div class="contact-group">
+                        <input name="subject" id="subject_input" type="text" required placeholder="Subject" />
+                    </div>
+                    <div class="contact-group">
+                        <label class="contact-spec" for="Message">Message</label>
+                    </div>
+                    <div class="contact-group">
+                        <textarea name="message" id="message_input" required placeholder="Message" rows="4" colums="30"></textarea>
+                    </div>
+                    <div class="contact-group">
+                        <input type="submit" value="Submit" id="send"></input>
+                    </div>
+                </form>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div class="col-md-3 col-sm-2"></div>
+        </div>
+
+        <div class="row footer-footer">
+            <div class="col-md-3"> </div>
+            <div class="col-md-6">
+                <br>
+                <p style="font-weight: bold;color: rgb(210 , 210, 210);">Vincent Grenfeldt Designs
+                    <span style="font-size:1.2em;">m.u.f</span>
+                    <span style="color: rgb(150, 150, 150);margin-left:20px;">all rights reserved.</span>
+                </p>
+                <p style="font-weight: bold;color: rgb(150 , 150, 150);">
+                    "Minecraft" is a trademark of Mojang Synergies AB
+                </p>
+                <div style="font-weight: bold;color: rgb(150 , 150, 150);">Icons made by
+                    <a href="http://www.freepik.com" title="Freepik">Freepik</a> from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+                    <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+                </div>
+            </div>
+            <div class="col-md-3"> </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="javascripts/main.js"></script>
+<script>
+    var btn = document.getElementById("send");
+    var form = document.getElementsByClassName("contact-form")[0];
+
+    function appendClass(obj, className) {
+        obj.setAttribute("class", obj.getAttribute("class") + " " + className);
+    }
+
+    function removeClass(obj, className) {
+        obj.setAttribute("class", obj.getAttribute("class").replace(className, ""));
+    }
+
+    btn.addEventListener("mouseover", function (e) {
+        if (
+            document.getElementById("email_input").value.trim() < 1 ||
+            document.getElementById("firstName_input").value.trim() < 1 ||
+            document.getElementById("subject_input").value.trim() < 1
+        ) {
+            btn.setAttribute("disabled", "");
+            btn.setAttribute("value", "Obs! empty Fields");
+            appendClass(btn,"disabled");
+        } else {
+            removeClass(btn,"disabled");
+            btn.setAttribute("value", "Send!");
+            btn.removeAttribute("disabled");
+        }
+    });
+    btn.addEventListener("mouseout", function (e) {
+        btn.setAttribute("value", "submit");
+        removeClass(btn,"disabled");
+    });
+</script>
+
+</html>
